@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="javascript.js"></script>
 </head>
 <body>
+    <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="portfolio.html">My Portfolio</a>
+        <a href="contactform.html">Contact</a>
+    </nav>
+
     <h1>Please Fill Out Your Information Below</h1>
+    <div>
+        <form>
+            <label for="fname" id="firstName">First Name:</label>
+            <input tpye="text" id="firstName" value="First Name"><br>
+            
+            <label for="lname" id="lastName">Last Name:</label>
+            <input type="text" id="lastName" value="Last Name"><br>
+            
+            <label for="phone" id="pnumber">Phone Number:</label>
+            <input type="text" id="pnumber" value="Phone Number"><br>
+            
+            <label for="email" id="email">Email:</label>
+            <input type="text" id="email" value="Email"><br>
+            <br>
+            
+            <label for="perferred" id="contact">Peferred Contact: Email</label>
+            <input type="radio" id="contact" value="perferredcontact">
+            <label for="perferred" id="contact">Phone</label>
+            <input type="radio" id="contact" value="perferredcontact"><br>
+            <br>
+            
+            <h2>How Did You Find Out About Me?</h2>
+            
+            <label for="linkedin" id="me">Linkedin</label>
+            <input type="checkbox" id="me" value="resources">
+            <label for="collegue" id="me">Collegue</label>
+            <input type="checkbox" id="me" value="resources">
+            <label for="Github" id="me">Github</label>
+            <input type="checkbox" id="me" value="resources">
+            <label for="other" id="me">Other</label>
+            <input type="checkbox" id="me" value="resources"><br>
+            <br>
+            
+            <input type="submit" value="submit">
+        </form>
+    </div>
     
 </body>
 </html>
